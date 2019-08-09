@@ -47,7 +47,7 @@ void js_print(TinyJS::Variable *v, void *userdata) {
 }
 
 void js_dump(TinyJS::Variable *v, void *userdata) {
-    CTinyJS *js = (CTinyJS*)userdata;
+    TinyJS::Interpreter *js = (TinyJS::Interpreter*)userdata;
     js->root->trace(">  ");
 }
 
