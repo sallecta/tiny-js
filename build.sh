@@ -1,9 +1,8 @@
 #!/bin/bash
 build="ignore/build"
-compile="g++ -c -g -Wall -rdynamic -D_DEBUG"
+#debug version: compile="g++ -c -g -Wall -rdynamic -D_DEBUG"
 compile="g++ -c -g -Wall -rdynamic"
 copileAndLink="g++ -g -rdynamic"
-#compileScript="g++ -g -rdynamic"
 
 if [ -d "$build" ]; then rm -Rf $build; fi
 if [ ! -d "$build" ]; then mkdir $build; fi
