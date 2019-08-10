@@ -31,9 +31,9 @@
  * This is a program to run all the tests in the tests folder...
  */
 
-#include "TinyJS.h"
-#include "TinyJS_Functions.h"
-#include "TinyJS_MathFunctions.h"
+#include "tinyjs.h"
+#include "tinyjs-functions.h"
+#include "tinyjs-functions-math.h"
 #include <assert.h>
 #include <sys/stat.h>
 #include <string>

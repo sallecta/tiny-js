@@ -32,7 +32,7 @@
 #ifndef TINYJS_MATHFUNCTIONS_H
 #define TINYJS_MATHFUNCTIONS_H
 
-#include "TinyJS.h"
+#include "tinyjs.h"
 
 namespace TinyJS {
 

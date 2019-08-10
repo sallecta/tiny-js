@@ -32,7 +32,7 @@
 #include <math.h>
 #include <cstdlib>
 #include <sstream>
-#include "TinyJS_MathFunctions.h"
+#include "tinyjs-functions-math.h"
 
 namespace TinyJS {
 

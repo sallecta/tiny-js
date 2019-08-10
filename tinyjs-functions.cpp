@@ -29,7 +29,7 @@
  * SOFTWARE.
  */
 
-#include "TinyJS_Functions.h"
+#include "tinyjs-functions.h"
 #include <math.h>
 #include <cstdlib>
 #include <sstream>

@@ -30,7 +30,7 @@
 #ifndef TINYJS_FUNCTIONS_H
 #define TINYJS_FUNCTIONS_H
 
-#include "TinyJS.h"
+#include "tinyjs.h"
 
 namespace TinyJS {
 

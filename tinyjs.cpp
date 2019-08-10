@@ -120,7 +120,7 @@
 
  */
 
-#include "TinyJS.h"
+#include "tinyjs.h"
 #include <assert.h>
 
 #ifndef ASSERT
