@@ -41,7 +41,7 @@ func_make_obj "tinyjs-functions-math" "src"
 
 func_make_exe "run_tests" "src"
 
-func_make_exe "script" "src"
+func_make_exe "tjsi" "src"
 
 func_final
 
