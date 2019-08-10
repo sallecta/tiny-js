@@ -5,7 +5,7 @@ compile="g++ -c -g -Wall -rdynamic"
 copileAndLink="g++ -g -rdynamic"
 
 if [ -d "$build" ]; then rm -Rf $build; fi
-if [ ! -d "$build" ]; then mkdir $build; fi
+if [ ! -d "$build" ]; then mkdir -p $build; fi
 
 step=0
 objects=""
