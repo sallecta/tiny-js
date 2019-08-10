@@ -1,0 +1,11 @@
+# ignore directory
+/ignore/
+
+*.[oa]
+*.o
+*.os
+*.binding
+*.so
+*.dylib
+*.pyc
+*.orig
